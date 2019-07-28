@@ -52,7 +52,7 @@ It exposes the following interface to the outside world:
 	function createClaim(uint16 claimType, string evidence, address beneficiary) returns (int);
 	
 	// Investor related
-	function getTokenAddress() constant returns (address); // ERC20 Compliant Token
+	function getTokenAddress() constant returns (address); 
 	function getCurrentTokenOffer() constant returns (uint256 price, uint256 availableTokens);
 	function buyTokens(address tokenHolder);
 	function withdrawDividends();
