@@ -37,10 +37,4 @@ dividend [holder] = balance [holder] * totalDividend / totalTokenSupply
 ###  persistence
 
 Persistence implements an update function to transfer its information to another instance when it needs to be updated.
-Apri in Google Traduttore	
-Feedback
-Risultati web
-Google Traduttore
-https://translate.google.it/?hl=it
-Il servizio gratuito di Google traduce all'istante parole, frasi e pagine web tra l'italiano e più di 100 altre lingue.
-Google Traduttore - App su Google Play
+
