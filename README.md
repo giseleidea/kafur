@@ -44,7 +44,8 @@ We decided to expose code on github for having possibility to find new funds for
 
 ### Project phase
 
-We are at initial solidity contract poc definition. Then we designed to develop also a web platform for our services integrating the hedera interface for accessing to contracts. 
+We are at initial solidity contract poc definition (see folder kafur/tree/master/src/main/solidity). 
+Then we designed to develop also a web platform for our services integrating the hedera interface for accessing to contracts. 
 
 
 
