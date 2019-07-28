@@ -1,11 +1,11 @@
-# kafur
-Hedera contract  implementing a virtual assurance 
+# Kafur
 
 
- #1.  Introduction
+
+##  Introduction
 Kafur is a decentralized automobile insurance that runs on top of the Hedera graphchain. Users can register to request insurance coverage based on an investment fund associated with a token that provides necessary liquidity
 
-#2. Participants
+## Participants
 The automobile insurance consists of:
  
 Owner: user who sets the conditions under which a complaint can be lodged.
