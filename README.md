@@ -38,3 +38,9 @@ dividend [holder] = balance [holder] * totalDividend / totalTokenSupply
 
 Persistence implements an update function to transfer its information to another instance when it needs to be updated.
 
+###  why public
+
+We decided to expose code on github for having possibility to find new funds for our project. 
+
+
+
