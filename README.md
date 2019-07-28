@@ -37,14 +37,31 @@ dividend [holder] = balance [holder] * totalDividend / totalTokenSupply
 ###  Persistence
 
 Persistence implements an update function to transfer its information to another instance when it needs to be updated.
+### Interface 
 
+It exposes the following interface to the outside world:
+
+	// Insurer related
+	function getNumberOfInsurancePlans() 
+	function getInsurancePlanPrice(uint16 plan)
+	function getInsuredProfile(address insured)
+	function buyInsurancePlan(uint16 plan) 
+	function createClaim(uint16 claimType, string evidence, address beneficiary) 
+	
+	// Investor related
+	function getTokenAddress()
+	function getCurrentTokenOffer()
+	function buyTokens(address tokenHolder)
+	function withdrawDividends()
+	
 ###  Why public
 
 We decided to expose code on github for having possibility to find new funds for our project. 
 
 ### Project phase
 
-We are at initial solidity contract poc definition. Then we designed to develop also a web platform for our services integrating the hedera interface for accessing to contracts. 
+We are at initial solidity contract poc definition (see folder kafur/tree/master/src/main/solidity). 
+Then we designed to develop also a web platform for our services integrating the hedera interface for accessing to contracts. 
 
 
 
