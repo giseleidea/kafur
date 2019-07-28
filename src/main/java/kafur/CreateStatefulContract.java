@@ -25,7 +25,7 @@ public final class CreateStatefulContract {
 
         JsonObject jsonObject;
 
-        try (var jsonStream = cl.getResourceAsStream("stateful.json")) {
+        try (var jsonStream = cl.getResourceAsStream("Kafur.json")) {
             if (jsonStream == null) {
                 throw new RuntimeException("failed to get stateful.json");
             }
@@ -88,7 +88,7 @@ public final class CreateStatefulContract {
         System.out.println("Waiting 5s for consensus and contract execution");
         Thread.sleep(5000);
         // now query contract
-        var contractUpdateResult = new ContractCallQuery(client).setContractId(newContractId)
+       /* var contractUpdateResult = new ContractCallQuery(client).setContractId(newContractId)
             .setGas(100_000_000)
             .setFunctionParameters(CallParams.function("get_message"))
             .execute();
@@ -99,6 +99,6 @@ public final class CreateStatefulContract {
         }
 
         var message2 = contractUpdateResult.getString();
-        System.out.println("contract returned message: " + message2);
+        System.out.println("contract returned message: " + message2);*/
     }
 }
