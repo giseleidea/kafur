@@ -4,7 +4,7 @@
 
 
 ##  Introduction
-Kafur is a decentralized automobile insurance that runs on top of the Hedera graphchain. Users can register to request insurance coverage based on an investment fund associated with a token that provides necessary liquidity
+Kafur is a decentralized automobile insurance that runs on top of the Hedera hashgraph. Users can register to request insurance coverage based on an investment fund associated with a token that provides necessary liquidity
 
 ## Participants
 The automobile insurance consists of:
