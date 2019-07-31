@@ -1,7 +1,7 @@
 # Kafur
 (solidity phase)
 
-
+![Kafur](https://prevailpt.com/wp-content/uploads/2018/10/insurance-arrow.jpg)
 
 ##  Introduction
 Kafur is a decentralized automobile insurance that runs on top of the Hedera hashgraph. Users can register to request insurance coverage based on an investment fund associated with a token that provides necessary liquidity
