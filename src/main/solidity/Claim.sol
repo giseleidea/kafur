@@ -1,6 +1,6 @@
 pragma solidity >=0.4.4;
 
-import "./Server.sol";
+import "./Server.sol"; 
 
 contract Claim {
   enum ClaimStates {
